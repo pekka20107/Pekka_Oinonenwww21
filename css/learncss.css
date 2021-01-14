@@ -1,0 +1,53 @@
+
+body {
+background-image:url("images/background4.jpg"), url("images/background5.jpg"), url("images/background3.jpg")
+}
+
+h2 {
+    color:magenta;
+    font-size:16px;
+    font-family: cursive;
+    text-decoration: mediumpurple;
+
+}
+
+h1, .redtext {
+    color: rgb(255, 0, 0);
+    font-style: initial;
+}
+header, span, em {
+    background-color: lawngreen;
+}
+
+article > h1 {
+    background-color: maroon;
+}
+article > p {
+    background-color: maroon;
+}
+
+p::first-letter{
+    color: royalblue;
+    font-size: larger;
+}
+* {
+    margin-left: 25px;
+}
+
+.notebox {
+    border: 4px solid orange;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.notebox.warning {
+    border:5px solid red;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.notebox.danger {
+    border:5px solid rgb(8, 255, 103);
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
