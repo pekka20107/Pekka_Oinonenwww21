@@ -1,0 +1,89 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 4</title>
+    <style>
+        .wrapper {
+            margin: auto;
+            width:70%;
+            
+        }
+        header {
+            padding: 10px;
+            background-color:gray;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+        }
+        .header {
+            align-items: center;
+            justify-content: center;
+        }
+        content {
+            background-color: papayawhip;
+        }
+        .topmenu{
+            display:flex;
+            flex-flow: row wrap;
+            justify-content: flex-start;
+            margin:0; 
+            background-color: skyblue;
+        }
+        .flexgrowcon {
+            display:flex;
+            align-items: stretch;
+            
+        }
+        leftbar {
+            background-color: snow;
+            min-height: 500px;
+            width: 155px;
+            background-color:gray;
+        }
+        footer {
+            background-color: black;
+            color:white;
+            height: 100px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        
+        <header>
+            <h1 class="header">
+               EPIC CAR DEALERSHIP
+            </h1>
+    <ul class="topmenu"></ul>
+        <img class="topmenu" src="images/auto.jpg" alt="Car">
+    </ul>
+</header>
+<div class="flexgrowcon">
+<leftbar style="flex-grow: 1;">
+    <ul>
+    <li>LOOKING FOR CARS? WE GOT THEM ALL</li><br><br>
+    <li>Mercedes-Benz</li> <br><br>
+    <li>BMW</li>    <br><br>
+    <li>TOYOTA</li> <br><br>
+    <li>AUDI</li>   <br><br>
+    <li>NISSAN</li> <br><br>
+    <li>TESLA</li> <br><br>
+
+    </ul>
+</leftbar>
+<content style="flex-grow: 6;">
+    asdsadas
+</content>
+
+    </div>
+<footer>
+    EPIC CARS OY Contact information: Email: epic.cars@gmail.com <br>
+    Address: epic road 76 <br>
+    (If car is broken please contact number: 0451234567 (cost 1000$ / min. estimated line waiting time: 10 days)
+</footer>
+</div>
+
+</body>
+</html>

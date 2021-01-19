@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/flexbox.css">
+    <title>Exercise 4</title>
+    <style>
+        .wrapper {
+            margin: auto;
+            width:70%;
+        }
+        header {
+            align-items: center;
+            background-color:gray;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+      
+        content {
+            background-color: papayawhip;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .topmenu{
+            display:flex;
+            flex-flow: row wrap;
+            justify-content: flex-start;
+            background-color: skyblue;
+        }
+        .flexgrowcon {
+            display:flex;
+            align-items: stretch;
+            
+        }
+        leftbar {
+            background-color: snow;
+            min-height: 500px;
+            width: 1000x;
+            background-color:rgba(128, 128, 128, 0.253);
+        }
+        footer {
+            background-color: black;
+            color:white;
+            height: 100px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        
+        <header>
+            <h1>
+               EPIC CAR DEALERSHIP
+            </h1>
+    <ul class="topmenu"></ul>
+        <img class="topmenu" src="images/auto.jpg" alt="Car">
+    </ul>
+</header>
+<div class="flexgrowcon">
+<leftbar style="flex-grow: 1;">
+    <ul>
+    <li>The best cars with the best prices</li><br><br>
+    <li>Mercedes-Benz</li> <br><br>
+    <li>BMW</li>    <br><br>
+    <li>TOYOTA</li> <br><br>
+    <li>AUDI</li>   <br><br>
+    <li>NISSAN</li> <br><br>
+    <li>TESLA</li> <br><br>
+
+    </ul>
+</leftbar>
+<content>
+    <a href="https://www.chevrolet.com/performance/corvette">
+        <img src="images/corvette.jpg" alt="corvette">
+        </a>
+        <a href="https://www.audiusa.com/us/web/en.html">
+        <img src="images/audi.jpg" alt="Audi">
+        </a>
+         <a href="https://www.bmwusa.com/vehicles/m-models/m8-gran-coupe/overview.html">
+         <img src="images/bmw.jpg" alt="BMW">
+        </a>
+        <a href="https://www.nissanusa.com/vehicles/cars/sentra.html">
+        <img src="images/nissan.jpg" alt="nissan">
+        </a>
+</content>
+
+    </div>
+<footer>
+    EPIC CARS OY Contact information: Email: epic.cars@gmail.com <br>
+    Address: epic road 76 <br>
+    (If car is broken please contact number: 0451234567 (cost 1000$ / min. estimated line waiting time: 10 days) <br>
+    We have the best lawyer in the town
+</footer>
+</div>
+
+</body>
+</html>
