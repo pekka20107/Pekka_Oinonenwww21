@@ -14,19 +14,32 @@
             align-items: center;
             background-color:gray;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            display: flex;
+            
         }
-      
+    
         content {
-            background-color: papayawhip;
+            background-color: rgb(0, 0, 0);
             display: flex;
             flex-wrap: wrap;
-            justify-content: center;
+            justify-content: space-around;
         }
         .topmenu{
             display:flex;
             flex-flow: row wrap;
-            justify-content: flex-start;
+            justify-content: left;
             background-color: skyblue;
+
+        }
+        .header1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 50px;
+        }
+        .lihead {
+            font-size: larger;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         }
         .flexgrowcon {
             display:flex;
@@ -36,12 +49,12 @@
         leftbar {
             background-color: snow;
             min-height: 500px;
-            width: 1000x;
+            width: 483px;
             background-color:rgba(128, 128, 128, 0.253);
         }
         footer {
-            background-color: black;
-            color:white;
+            background-color: papayawhip;
+            color:rgb(0, 0, 0);
             height: 100px;
             text-align: center;
         }
@@ -51,37 +64,42 @@
     <div class="wrapper">
         
         <header>
-            <h1>
-               EPIC CAR DEALERSHIP
-            </h1>
-    <ul class="topmenu"></ul>
+            
+    
         <img class="topmenu" src="images/auto.jpg" alt="Car">
-    </ul>
+   
+            <div class="header1">
+               EPIC CAR DEALERSHIP
+            </div>
 </header>
 <div class="flexgrowcon">
 <leftbar style="flex-grow: 1;">
     <ul>
-    <li>The best cars with the best prices</li><br><br>
+    <li class="lihead">the best cars with the best prices</li><br><br>
     <li>Mercedes-Benz</li> <br><br>
     <li>BMW</li>    <br><br>
     <li>TOYOTA</li> <br><br>
     <li>AUDI</li>   <br><br>
     <li>NISSAN</li> <br><br>
     <li>TESLA</li> <br><br>
+    <li>CHEVROLET</li> <br><br>
+    <li>SUBARU</li> <br><br>
+    <li>LEXUS</li> <br><br>
+    <li>MITSUBISHI</li> <br><br>
 
     </ul>
 </leftbar>
 <content>
-    <a href="https://www.chevrolet.com/performance/corvette">
+    <a href="https://www.chevrolet.com/performance/corvette" target="blank">
         <img src="images/corvette.jpg" alt="corvette">
         </a>
-        <a href="https://www.audiusa.com/us/web/en.html">
+        <a href="https://www.audiusa.com/us/web/en.html" target="blank">
         <img src="images/audi.jpg" alt="Audi">
         </a>
-         <a href="https://www.bmwusa.com/vehicles/m-models/m8-gran-coupe/overview.html">
+         <a href="https://www.bmwusa.com/vehicles/m-models/m8-gran-coupe/overview.html" target="blank">
          <img src="images/bmw.jpg" alt="BMW">
         </a>
-        <a href="https://www.nissanusa.com/vehicles/cars/sentra.html">
+        <a href="https://www.nissanusa.com/vehicles/cars/sentra.html" target="blank">
         <img src="images/nissan.jpg" alt="nissan">
         </a>
 </content>
@@ -90,7 +108,7 @@
 <footer>
     EPIC CARS OY Contact information: Email: epic.cars@gmail.com <br>
     Address: epic road 76 <br>
-    (If car is broken please contact number: 0451234567 (cost 1000$ / min. estimated line waiting time: 10 days) <br>
+    (If car is broken please contact number: 0451234567 (cost 1000$ / min. estimated line waiting time: 6 hours) <br>
     We have the best lawyer in the town
 </footer>
 </div>
